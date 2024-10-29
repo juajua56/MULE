@@ -151,3 +151,24 @@ You can train and evaluate your own dataset with custom hyperparameters as follo
 |`device`| training device | cuda:0|
 |`topk`| Top-k items | 10|
 
+## Citation
+Please cite the paper if you use this code in your own work:
+```
+@inproceedings{10.1145/3627673.3679709,
+author = {Lee, Seunghan and Ko, Geonwoo and Song, Hyun-Je and Jung, Jinhong},
+title = {MuLe: Multi-Grained Graph Learning for Multi-Behavior Recommendation},
+year = {2024},
+isbn = {9798400704369},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3627673.3679709},
+doi = {10.1145/3627673.3679709},
+abstract = {Multi-behavior recommender systems, rapidly advancing across various domains, utilize plentiful auxiliary interactions on a variety of user behaviors to enhance recommendations for the target behavior, such as purchases. While previous methods have made strides in leveraging such interactions with advanced machine learning methods, they still face challenges in adequately using multi-faceted relationships among behaviors and handling uncertain auxiliary interactions that could potentially lead to purchases or not. In this paper, we propose MuLe (Multi-Grained Graph Learning), a novel graph-based model designed to address these limitations. We design a multi-grained graph learning strategy to capture diverse aspects of behaviors, ranging from unified to specific, and then to target-related behavior interactions. To handle uncertain interactions, we use graph attention, weighting the importance of those interactions related to the target behavior. Afterward, we use an attention mechanism to effectively aggregate diverse behavior embeddings obtained from the multi-grained graph encoders. Extensive experiments show that MuLe significantly outperforms the state-of-the-art methods, achieving improvements of up to 44.6\% in HR@10 and 52.9\% in NDCG@10, respectively. Our code and datasets are available at https://github.com/geonwooko/MULE.},
+booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
+pages = {1163–1173},
+numpages = {11},
+keywords = {multi-behavior recommendation, multi-grained graph learning, target-guided denoising attention},
+location = {Boise, ID, USA},
+series = {CIKM '24}
+}
+```
