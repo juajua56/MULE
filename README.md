@@ -1,9 +1,7 @@
 # MuLe
-This is the official code for **MuLe** (Multi-Grained Graph Learning for Multi-Behavior Recommendation), accepted to CIKM 2024.
+This is the official code for [**MuLe** (Multi-Grained Graph Learning for Multi-Behavior Recommendation)](https://dl.acm.org/doi/10.1145/3627673.3679709), accepted to CIKM 2024.
 ![overview](./assets/overview.png)
 
-The paper is pubilcly accessible in the following link:
-* [Paper link](https://dl.acm.org/doi/10.1145/3627673.3679709)
 
 ## Prerequisties
 You can install the required packages with a conda environment by typing the following command in your terminal:
@@ -158,6 +156,7 @@ Please cite the paper if you use this code in your own work:
 author = {Lee, Seunghan and Ko, Geonwoo and Song, Hyun-Je and Jung, Jinhong},
 title = {MuLe: Multi-Grained Graph Learning for Multi-Behavior Recommendation},
 year = {2024},
-url = {https://doi.org/10.1145/3627673.3679709},
+booktitle = {CIKM},
+url = {https://doi.org/10.1145/3627673.3679709}
 }
 ```
