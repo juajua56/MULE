@@ -156,7 +156,7 @@ Please cite the paper if you use this code in your own work:
 author = {Lee, Seunghan and Ko, Geonwoo and Song, Hyun-Je and Jung, Jinhong},
 title = {MuLe: Multi-Grained Graph Learning for Multi-Behavior Recommendation},
 year = {2024},
-booktitle = {CIKM},
+booktitle = {ACM International Conference on Information and Knowledge Management},
 url = {https://doi.org/10.1145/3627673.3679709}
 }
 ```
